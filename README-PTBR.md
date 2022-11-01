@@ -5,93 +5,86 @@ O projeto consiste em uma aplicação para comprar e vender carros usados. Nela 
 ## 🚀 Começando
 
 
+Para poder testar a aplicação localmente, você devera fazer o clone deste repositório na sua maquina:
+
+— Crie uma nova pasta no seu computador;
+— Abra o terminal dentro dela;
+— Rode o comando: git clone git@github.com:DanielCavalcantih/NETCARS.git
+
+Uma nova pasta chamada "NETCARS" deverá ser gerada na pasta que você criou.
+
+— Rode cd NETCARS/ para entrar no diretorio raiz do projeto.
+
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
 
-```
-Dar exemplos
-```
+As dependências para este projeto são:
+  Back-End:
+    — dotenv;
+    — express;
+    — cors;
+    — joi;
+    — jsonwebtoken;
+    — mysql2;
+    — nodemon;
+    — sequelize;
+    — sequelize-cli;
+  Front-End:
+    — axios;
+    — history;
+    — react;
+    — react-dom;
+    — react-router-dom;
+    — react-scripts;
+
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-Diga como essa etapa será:
+Para instalar todas as dependências do projeto, a partir do diretório raiz:
 
-```
-Dar exemplos
-```
+— Entre na pasta "back-end": cd app/back-end/ ;
 
-E repita:
+— Rode o comando npm install ; Para instalar as dependencias do back-end do projeto;
 
-```
-Até finalizar
-```
+— Entre na pasta "front-end": cd ../front-end/ ;
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+— Rode o comando npm install ; Para instalar as dependencias do front-end do projeto;
 
-## ⚙️ Executando os testes
+— Volte para pasta "back-end": cd ../back-end/ ;
 
-Explicar como executar os testes automatizados para este sistema.
+— Certifique-se que as portas 3000, 3001 e 3306 não estejam sendo usadas;
 
-### 🔩 Analise os testes de ponta a ponta
+— Rode o comando docker-compose up -d ; para criar os containers docker e estabelecer  uma compatibilidade de versões;
 
-Explique que eles verificam esses testes e porquê.
+— Rode o comando npx sequelize db:create ;
 
-```
-Dar exemplos
-```
+— Para facilitar a visualização do banco de dados, instale uma extensão do VsCode chamada MySQL, criada por Weijan Chen;
 
-### ⌨️ E testes de estilo de codificação
+— Após instalar e extensão, clique no ícone criado na barra lateral do seu VsCode e crie uma connection com a Port: 3306 e a Password: "password", e clique em +Connect. Você pode observar que o banco de dados já foi criado;
 
-Explique que eles verificam esses testes e porquê.
+— Após criar o banco, rode o comando npx sequelize db:migrate ; para criar as tabelas do banco;
 
-```
-Dar exemplos
-```
+— Rode npx sequelize db:seed:all ; para popular as tabelas com os dados iniciais;
 
-## 📦 Implantação
+— Com o banco de dados criado e populado, entre no terminal do container docker: docker exec -it netcars bash;
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+— No terminal do container rode o comando npm run debug ; para rodar o back-end da aplicação;
+
+— Aplicação rodando, abra um novo terminal, entre na pasta front-end: cd app/front-end/ e rode o comando npm start para iniciar a aplicação;
+
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto).
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+* [MySQL](https://dev.mysql.com/doc/) - O Banco de dados utilizado
+* [React](https://pt-br.reactjs.org/docs/getting-started.html) - Biblioteca do Java-Script utilizada
+* [useContext](https://reactjs.org/docs/context.html) - Para gerenciamento do estado global
+* [joi](https://joi.dev/api/?v=17.7.0) - Para validação de requisições http (Middlewares)
+* [Express](https://expressjs.com/pt-br/starter/installing.html) - Framework para aplicativo da web do Node.js
+* [Sequelize](https://sequelize.org/docs/v6/getting-started/) - ORM - Interface da aplicação com o banco de dados
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ Por [Daniel Cavalcanti](https://gist.github.com/lohhans) 😊
