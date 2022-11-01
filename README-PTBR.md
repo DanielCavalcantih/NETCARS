@@ -5,7 +5,7 @@ O projeto consiste em uma aplicação para comprar e vender carros usados. Nela 
 ## 🚀 Começando
 
 
-Para poder testar a aplicação localmente, você devera fazer o clone deste repositório na sua maquina:
+Para poder testar a aplicação localmente, você deverá fazer o clone deste repositório na sua maquina:
 
 — Crie uma nova pasta no seu computador;<br />
 — Abra o terminal dentro dela;<br />
