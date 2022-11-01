@@ -72,7 +72,7 @@ https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
 — Após criar o banco, rode o comando `npx sequelize db:migrate` ; para criar as tabelas do banco;
 
-— Rode npx sequelize `db:seed:all` ; para popular as tabelas com os dados iniciais;
+— Rode `npx sequelize db:seed:all` ; para popular as tabelas com os dados iniciais;
 
 — Com o banco de dados criado e populado, entre no terminal do container docker: `docker exec -it netcars bash`;
 
