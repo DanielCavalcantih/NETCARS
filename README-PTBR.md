@@ -19,7 +19,7 @@ Uma nova pasta chamada "NETCARS" deverá ser gerada na pasta que você criou.
 ### 📋 Pré-requisitos
 
 
-As dependências para este projeto são:
+As dependências para este projeto são:<br />
   Back-End:<br />
     — dotenv;<br />
     — express;<br />
