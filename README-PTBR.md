@@ -8,8 +8,8 @@ O projeto consiste em uma aplicação para comprar e vender carros usados. Nela 
 Para poder testar a aplicação localmente, você devera fazer o clone deste repositório na sua maquina:
 
 — Crie uma nova pasta no seu computador;<br />
-— Abra o terminal dentro dela;
-— Rode o comando: git clone git@github.com:DanielCavalcantih/NETCARS.git
+— Abra o terminal dentro dela;<br />
+— Rode o comando: git clone git@github.com:DanielCavalcantih/NETCARS.git<br />
 
 Uma nova pasta chamada "NETCARS" deverá ser gerada na pasta que você criou.
 
@@ -20,23 +20,23 @@ Uma nova pasta chamada "NETCARS" deverá ser gerada na pasta que você criou.
 
 
 As dependências para este projeto são:
-  Back-End:
-    — dotenv;
-    — express;
-    — cors;
-    — joi;
-    — jsonwebtoken;
-    — mysql2;
-    — nodemon;
-    — sequelize;
-    — sequelize-cli;
-  Front-End:
-    — axios;
-    — history;
-    — react;
-    — react-dom;
-    — react-router-dom;
-    — react-scripts;
+  Back-End:<br />
+    — dotenv;<br />
+    — express;<br />
+    — cors;<br />
+    — joi;<br />
+    — jsonwebtoken;<br />
+    — mysql2;<br />
+    — nodemon;<br />
+    — sequelize;<br />
+    — sequelize-cli;<br />
+  Front-End:<br />
+    — axios;<br />
+    — history;<br />
+    — react;<br />
+    — react-dom;<br />
+    — react-router-dom;<br />
+    — react-scripts;<br />
 
 
 ### 🔧 Instalação
