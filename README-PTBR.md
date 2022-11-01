@@ -68,7 +68,7 @@ https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 — Para facilitar a visualização do banco de dados, instale uma extensão do VsCode chamada MySQL, criada por Weijan Chen;
 https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
-— Após instalar e extensão, clique no ícone criado na barra lateral do seu VsCode e crie uma connection com a Port: 3306 e a Password: "password", e clique em +Connect. Você pode observar que o banco de dados já foi criado;
+— Após instalar a extensão, clique no ícone criado na barra lateral do seu VsCode e crie uma connection com a Port: 3306 e a Password: "password", e clique em +Connect. Você pode observar que o banco de dados já foi criado;
 
 — Após criar o banco, rode o comando `npx sequelize db:migrate` ; para criar as tabelas do banco;
 
