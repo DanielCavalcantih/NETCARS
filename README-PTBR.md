@@ -7,7 +7,7 @@ O projeto consiste em uma aplicação para comprar e vender carros usados. Nela 
 
 Para poder testar a aplicação localmente, você devera fazer o clone deste repositório na sua maquina:
 
-— Crie uma nova pasta no seu computador;
+— Crie uma nova pasta no seu computador;<br />
 — Abra o terminal dentro dela;
 — Rode o comando: git clone git@github.com:DanielCavalcantih/NETCARS.git
 
