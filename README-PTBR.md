@@ -58,6 +58,9 @@ Para instalar todas as dependências do projeto, a partir do diretório raiz:
 
 — Certifique-se que as portas 3000, 3001 e 3306 não estejam sendo usadas;
 
+— Para facilitar a visualização dos containers docker criado, instale a extensão do VsCode chama Docker, criada pela Microsoft;
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+
 — Rode o comando `docker-compose up -d` ; para criar os containers docker e estabelecer  uma compatibilidade de versões;
 
 — Rode o comando `npx sequelize db:create` ; para criar o banco de dados;
