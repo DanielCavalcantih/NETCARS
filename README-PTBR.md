@@ -48,11 +48,11 @@ Para instalar todas as dependências do projeto, a partir do diretório raiz:
 
 — Entre na pasta "back-end": `cd app/back-end/` ;
 
-— Rode o comando `npm install` ; Para instalar as dependencias do back-end do projeto;
+— Rode o comando `npm install` ; para instalar as dependencias do back-end do projeto;
 
 — Entre na pasta "front-end": `cd ../front-end/` ;
 
-— Rode o comando `npm install` ; Para instalar as dependencias do front-end do projeto;
+— Rode o comando `npm install` ; para instalar as dependencias do front-end do projeto;
 
 — Volte para pasta "back-end": `cd ../back-end/` ;
 
@@ -60,7 +60,7 @@ Para instalar todas as dependências do projeto, a partir do diretório raiz:
 
 — Rode o comando `docker-compose up -d` ; para criar os containers docker e estabelecer  uma compatibilidade de versões;
 
-— Rode o comando `npx sequelize db:create` ;
+— Rode o comando `npx sequelize db:create` ; para criar o banco de dados;
 
 — Para facilitar a visualização do banco de dados, instale uma extensão do VsCode chamada MySQL, criada por Weijan Chen;
 
