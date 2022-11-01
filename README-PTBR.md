@@ -9,11 +9,11 @@ Para poder testar a aplicação localmente, você devera fazer o clone deste rep
 
 — Crie uma nova pasta no seu computador;<br />
 — Abra o terminal dentro dela;<br />
-— Rode o comando: git clone git@github.com:DanielCavalcantih/NETCARS.git<br />
+— Rode o comando: `git clone git@github.com:DanielCavalcantih/NETCARS.git`<br />
 
 Uma nova pasta chamada "NETCARS" deverá ser gerada na pasta que você criou.
 
-— Rode cd NETCARS/ para entrar no diretorio raiz do projeto.
+— Rode `cd NETCARS/` para entrar no diretorio raiz do projeto.
 
 
 ### 📋 Pré-requisitos
@@ -44,35 +44,35 @@ As dependências para este projeto são:<br />
 
 Para instalar todas as dependências do projeto, a partir do diretório raiz:
 
-— Entre na pasta "back-end": cd app/back-end/ ;
+— Entre na pasta "back-end": `cd app/back-end/` ;
 
-— Rode o comando npm install ; Para instalar as dependencias do back-end do projeto;
+— Rode o comando `npm install` ; Para instalar as dependencias do back-end do projeto;
 
-— Entre na pasta "front-end": cd ../front-end/ ;
+— Entre na pasta "front-end": `cd ../front-end/` ;
 
-— Rode o comando npm install ; Para instalar as dependencias do front-end do projeto;
+— Rode o comando `npm install` ; Para instalar as dependencias do front-end do projeto;
 
-— Volte para pasta "back-end": cd ../back-end/ ;
+— Volte para pasta "back-end": `cd ../back-end/` ;
 
 — Certifique-se que as portas 3000, 3001 e 3306 não estejam sendo usadas;
 
-— Rode o comando docker-compose up -d ; para criar os containers docker e estabelecer  uma compatibilidade de versões;
+— Rode o comando `docker-compose up -d` ; para criar os containers docker e estabelecer  uma compatibilidade de versões;
 
-— Rode o comando npx sequelize db:create ;
+— Rode o comando `npx sequelize db:create` ;
 
 — Para facilitar a visualização do banco de dados, instale uma extensão do VsCode chamada MySQL, criada por Weijan Chen;
 
 — Após instalar e extensão, clique no ícone criado na barra lateral do seu VsCode e crie uma connection com a Port: 3306 e a Password: "password", e clique em +Connect. Você pode observar que o banco de dados já foi criado;
 
-— Após criar o banco, rode o comando npx sequelize db:migrate ; para criar as tabelas do banco;
+— Após criar o banco, rode o comando `npx sequelize db:migrate` ; para criar as tabelas do banco;
 
-— Rode npx sequelize db:seed:all ; para popular as tabelas com os dados iniciais;
+— Rode npx sequelize `db:seed:all` ; para popular as tabelas com os dados iniciais;
 
-— Com o banco de dados criado e populado, entre no terminal do container docker: docker exec -it netcars bash;
+— Com o banco de dados criado e populado, entre no terminal do container docker: `docker exec -it netcars bash`;
 
-— No terminal do container rode o comando npm run debug ; para rodar o back-end da aplicação;
+— No terminal do container rode o comando `npm run debug` ; para rodar o back-end da aplicação;
 
-— Aplicação rodando, abra um novo terminal, entre na pasta front-end: cd app/front-end/ e rode o comando npm start para iniciar a aplicação;
+— Aplicação rodando, abra um novo terminal, entre na pasta front-end: `cd app/front-end/` e rode o comando `npm start` para iniciar a aplicação;
 
 
 ## 🛠️ Construído com
