@@ -13,13 +13,14 @@ Para poder testar a aplicação localmente, você devera fazer o clone deste rep
 
 Uma nova pasta chamada "NETCARS" deverá ser gerada na pasta que você criou.
 
-— Rode `cd NETCARS/` para entrar no diretorio raiz do projeto.
+— Rode `cd NETCARS/` para entrar no diretório raiz do projeto.
 
 
 ### 📋 Pré-requisitos
 
 
 As dependências para este projeto são:<br />
+
   Back-End:<br />
     — dotenv;<br />
     — express;<br />
@@ -30,6 +31,7 @@ As dependências para este projeto são:<br />
     — nodemon;<br />
     — sequelize;<br />
     — sequelize-cli;<br />
+    
   Front-End:<br />
     — axios;<br />
     — history;<br />
