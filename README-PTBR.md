@@ -78,7 +78,7 @@ https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
 — No terminal do container rode o comando `npm run debug` ; para rodar o back-end da aplicação;
 
-— Aplicação rodando, abra um novo terminal, entre na pasta front-end: `cd app/front-end/` e rode o comando `npm start` para iniciar a aplicação;
+— Back-end rodando, abra um novo terminal, entre na pasta front-end: `cd app/front-end/` e rode o comando `npm start` para iniciar a aplicação;
 
 
 ## 🛠️ Construído com
