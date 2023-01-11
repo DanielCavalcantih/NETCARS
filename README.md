@@ -93,4 +93,4 @@ https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
 
 
 ---
-⌨️ Por [Daniel Cavalcanti](https://gist.github.com/lohhans) 😊
+⌨️ Por [Daniel Cavalcanti](https://github.com/DanielCavalcantih) 😊
